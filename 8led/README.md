@@ -18,7 +18,7 @@ void setup() {
 void loop() {
   for(byte i=2; i<=9; i++) {
     zhasnout();
-    digitalWrite(i, HIGH);
+    digitalWrite(i, HIGH); //řádek 14
     delay(rychlost);
   }
   
@@ -26,14 +26,14 @@ void loop() {
   
   for(byte i=9; i>=2; i--) {
     zhasnout();
-    digitalWrite(i, HIGH);
+    digitalWrite(i, HIGH); //řádek 22
     delay(rychlost);
   }
 }
 
 void zhasnout() {
   for(byte i=2; i<=9; i++) {
-    digitalWrite(i, LOW);
+    digitalWrite(i, LOW); //řádek 29
   }
 }
 ```
