@@ -11,7 +11,7 @@ void setup() {
 void loop() {
   for(byte i=2; i<=9; i++) {
     zhasnout();
-    digitalWrite(i, LOW);
+    digitalWrite(i, HIGH);
     delay(rychlost);
   }
   
@@ -19,13 +19,13 @@ void loop() {
   
   for(byte i=9; i>=2; i--) {
     zhasnout();
-    digitalWrite(i, LOW);
+    digitalWrite(i, HIGH);
     delay(rychlost);
   }
 }
 
 void zhasnout() {
   for(byte i=2; i<=9; i++) {
-    digitalWrite(i, HIGH);
+    digitalWrite(i, LOW);
   }
 }    
