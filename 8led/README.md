@@ -40,4 +40,4 @@ void zhasnout() {
 
 ---
 
-Pokud svítí LEDka ve vašem zapojení při logické 0, tak je třeba upravit řádky `14, 22` na ``` digitalWrite(i, LOW); ``` a řádek `29` na ``` digitalWrite(i, HIGH); ```.
+Pokud svítí LEDka ve vašem zapojení při logické `0`, tak je třeba upravit řádky *14*, *22* na `digitalWrite(i, LOW);` a řádek *29* na `digitalWrite(i, HIGH);`.
